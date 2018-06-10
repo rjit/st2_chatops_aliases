@@ -13,6 +13,7 @@ parameters:
     default: true
   kwarg_op:
     immutable: true
+  shell: su - dev
   cmd:
     description: "Command to run"
     type: string
