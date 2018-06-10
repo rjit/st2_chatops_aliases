@@ -2,7 +2,6 @@
 ---
 name: server_status
 description: Show server status by running ansible ping ad-hoc command
-become_user: dev
 runner_type: local-shell-cmd
 entry_point: ""
 enabled: true
